@@ -98,19 +98,13 @@ Ejercicios
 - Etiquete manualmente los segmentos de voz y silencio del fichero grabado al efecto. Inserte, a 
   continuación, una captura de `wavesurfer` en la que se vea con claridad la señal temporal, el contorno de
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
-  
-	<img src="img/wavesurfer1.png" width="640" align="center">
 	
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
 	* Incremento del nivel potencia en dB, respecto al nivel correspondiente al silencio inicial, para estar
       seguros de que un segmento de señal se corresponde con voz.
-      
-	Superando los 20 dB respecto al silencio inicial podemos estar seguros de que el segmento de señal se corresponde con voz
 	
 	* Duración mínima razonable de los segmentos de voz y silencio.
-	
-	La duración mínima de voz es de 0,46 segundos y la duración mínima de silencio es de 0,47 si no tenemos en cuenta la duración inicial de silencio.
 
 	* ¿Es capaz de sacar alguna conclusión a partir de la evolución de la tasa de cruces por cero?
 	
@@ -122,18 +116,14 @@ Ejercicios
   
 - Inserte una gráfica en la que se vea con claridad la señal temporal, el etiquetado manual y la detección
   automática conseguida para el fichero grabado al efecto. 
-  
-<img src="img/detector.png" width="640" align="center">
 
 - Explique, si existen. las discrepancias entre el etiquetado manual y la detección automática.
-
-Como podemos observar existen algunas discrepancias sobretodo en un segmento donde la potencia de ruido es elevada y se deberia considerar silencio. En estos tramos vemos que a veces se coge voz lo que es silencio, pero en general dectecta bien la voz como podemos ver en la siguiente imagen hemos obtenido una puntuación del 90,55 % de aciertos. 
 
 - Evalúe los resultados sobre la base de datos `db.v4` con el script `vad_evaluation.pl` e inserte a 
   continuación las tasas de sensibilidad (*recall*) y precisión para el conjunto de la base de datos (sólo
   el resumen).
   
-<img src="img/evaluation.png" width="640" align="center">
+
 
 ### Trabajos de ampliación
 
