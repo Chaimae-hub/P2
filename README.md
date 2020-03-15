@@ -99,7 +99,7 @@ Ejercicios
   continuación, una captura de `wavesurfer` en la que se vea con claridad la señal temporal, el contorno de
   potencia y la tasa de cruces por cero, junto con el etiquetado manual de los segmentos.
 
-<img src="img/wavesurfer1.PNG" width="640" align="center">
+<img src="img/wavesurfer.PNG" width="640" align="center">
 
 - A la vista de la gráfica, indique qué valores considera adecuados para las magnitudes siguientes:
 
@@ -133,7 +133,7 @@ _Podemos observar como al principio de la trama hay un pico y eso es debido a qu
   el resumen).
   
   
-<img src="img/detector.PNG" width="640" align="center">
+<img src="img/detector1.PNG" width="640" align="center">
   
 _Podemos ver que hay unas pequeñas discrepancias sobre el etiquetado. Se deben en parte que al etiquetar manualmente no se ha sido tan preciso como se quería, por otra parte hay algunos errores causados por errores en la programación._
 
