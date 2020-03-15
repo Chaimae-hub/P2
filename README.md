@@ -110,7 +110,7 @@ _Hemos podido detectar que tiene que augmentar 27dB._
 
 	* Duración mínima razonable de los segmentos de voz y silencio.
 	
-_Los segmentos de voz duran unas 46 muestras, es decir, 460ms. Y los fragmentos de silencio 470ms._
+_Los segmentos de voz duran unas 46 muestras, es decir, 460ms. Y los fragmentos de silencio de 470ms._
 
 	* ¿Es capaz de sacar alguna conclusión a partir de la evolución de la tasa de cruces por cero?
 	
